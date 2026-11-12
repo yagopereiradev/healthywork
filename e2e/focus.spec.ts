@@ -3,7 +3,7 @@ import { expect, test } from '@playwright/test';
 test('a focus block runs to its end and opens the break', async ({ page }) => {
   // A Thursday morning, inside working hours. The clock jumps when told to, and
   // otherwise runs normally, so times are checked to the minute, not the second.
-  await page.clock.install({ time: new Date('2026-11-12T10:00:00') });
+  await page.clock.install({ time: new Date('2026-11-12T10:00:00-03:00') });
   await page.goto('/focus?demo=1');
 
   await expect(page.getByText('Block 1 of 4')).toBeVisible();

@@ -1,8 +1,10 @@
 import { expect, test } from '@playwright/test';
 
 test('a break is opened, done, and leaves the screen', async ({ page }) => {
-  // A Thursday morning inside working hours, so a break is on the way.
-  await page.clock.install({ time: new Date('2026-11-12T10:00:00') });
+  // A Thursday morning inside working hours, so a break is on the way. The
+  // offset matches the time zone in playwright.config.ts, so it is 10:00 in the
+  // browser wherever the tests run.
+  await page.clock.install({ time: new Date('2026-11-12T10:00:00-03:00') });
   await page.goto('/?demo=1');
 
   await expect(page.getByText(/^Up next · break in \d+ min$/)).toBeVisible();

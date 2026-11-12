@@ -13,7 +13,8 @@ import sharp from 'sharp';
 const BASE = process.env.MEDIA_URL ?? 'http://localhost:4173';
 const OUT = fileURLToPath(new URL('../docs/media/', import.meta.url));
 // A Thursday afternoon, inside working hours.
-const NOW = new Date('2026-11-12T15:20:00');
+// The offset is São Paulo's, the time zone the browser is given below.
+const NOW = new Date('2026-11-12T15:20:00-03:00');
 
 const PHONE = { width: 390, height: 844 };
 const DESKTOP = { width: 1440, height: 900 };
