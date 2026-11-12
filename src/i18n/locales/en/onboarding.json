@@ -1,0 +1,30 @@
+{
+  "step": "Step {{step}} of {{total}}",
+  "continue": "Continue",
+  "back": "Back",
+  "water": {
+    "title": "How much water makes sense for you?",
+    "body": "It is a suggested goal, not a rule. Every drink counts, and you can change it whenever you like.",
+    "label": "Daily water goal",
+    "option": "{{amount}} ml",
+    "suggested": "suggestion"
+  },
+  "workday": {
+    "title": "What are your working hours?",
+    "body": "Reminders only appear within these hours. Outside them, the app stays quiet.",
+    "days": "Days of the week",
+    "estimate": "With {{hours}} of work, you will get about {{water}} water reminders and {{breaks}} break reminders a day. You can adjust this later.",
+    "noDays": "Choose at least one day to get reminders."
+  },
+  "notifications": {
+    "title": "Want reminders as notifications?",
+    "body": "That way they reach you even with HealthyWork minimized. Without it, they only appear inside the app.",
+    "exampleLabel": "Example of a notification",
+    "exampleApp": "HealthyWork · now",
+    "note": "Reminders work while the app is open, even minimized. With the app closed, they do not arrive.",
+    "enable": "Turn on notifications",
+    "skip": "Not now",
+    "denied": "Notifications are blocked in this browser. Reminders will appear inside the app.",
+    "finish": "Get started"
+  }
+}

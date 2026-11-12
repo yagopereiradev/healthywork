@@ -1,0 +1,37 @@
+name: Evidence
+description: Propose a source, or point out a claim that goes further than its source
+labels: [evidence]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        The app only promises what a study showed. If a claim in the app or in docs/EVIDENCE.md
+        says more than its source, or there is better evidence, this is the place.
+  - type: input
+    id: source
+    attributes:
+      label: Link to the source
+      placeholder: https://...
+    validations:
+      required: true
+  - type: textarea
+    id: says
+    attributes:
+      label: What the source says
+      description: In a sentence or two, with the sample size and how long the study lasted.
+    validations:
+      required: true
+  - type: textarea
+    id: limit
+    attributes:
+      label: Where the study stops
+      description: What it did not show, who was not included, what is still uncertain.
+    validations:
+      required: true
+  - type: textarea
+    id: change
+    attributes:
+      label: What should change in HealthyWork?
+      description: A text, a default, a feature, or nothing at all (just a better citation).
+    validations:
+      required: true

@@ -1,0 +1,53 @@
+{
+  "presets": {
+    "label": "Block length",
+    "option": "{{focus}} / {{rest}}",
+    "optionLabel": "{{focus}} minutes of focus, {{rest}} of break",
+    "custom": "Other"
+  },
+  "custom": {
+    "title": "A block your way",
+    "body": "Choose how long to focus and how long to rest.",
+    "focus": "Focus, in minutes",
+    "rest": "Break, in minutes",
+    "invalid": "Use {{focusMin}} to {{focusMax}} minutes of focus and {{restMin}} to {{restMax}} of break.",
+    "save": "Use this block"
+  },
+  "block": "Block {{block}} of {{total}}",
+  "ring": {
+    "idle": "{{minutes}} minutes of focus ahead",
+    "running": "{{time}} left of {{minutes}} minutes",
+    "paused": "Paused, {{time}} left"
+  },
+  "actions": {
+    "start": "Start block",
+    "startNext": "Start block {{block}}",
+    "pause": "Pause",
+    "resume": "Resume",
+    "stop": "End"
+  },
+  "after": {
+    "eyebrow": "After this block",
+    "text": "{{minutes}}-minute break · {{type}}"
+  },
+  "footer": {
+    "today": "Today: {{time}} of focus",
+    "reminders": "Water reminders stay on. The break comes at the end of the block."
+  },
+  "now": {
+    "running": "Now · focus, block {{block}} of {{total}}",
+    "paused": "Paused · block {{block}} of {{total}}",
+    "ready": "Up next · block {{block}} of {{total}}",
+    "readyTitle": "Ready for the next block?"
+  },
+  "toast": {
+    "stopped": "Focus ended",
+    "stoppedLogged_one": "Focus ended · {{count}} minute logged",
+    "stoppedLogged_other": "Focus ended · {{count}} minutes logged",
+    "cycleDone": "Cycle of {{total}} blocks complete"
+  },
+  "notification": {
+    "title": "Focus block complete",
+    "body": "Time for a break: {{exercise}}"
+  }
+}

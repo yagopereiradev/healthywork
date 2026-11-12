@@ -1,0 +1,22 @@
+{
+  "range": {
+    "7": "7 days",
+    "30": "30 days",
+    "label": "Period"
+  },
+  "streak_zero": "No days in a row on goal",
+  "streak_one": "{{count}} day in a row on goal",
+  "streak_other": "{{count}} days in a row on goal",
+  "liters": "{{amount}} L",
+  "breaks_one": "{{count}} taken",
+  "breaks_other": "{{count}} taken",
+  "day": {
+    "water": "{{date}}: {{amount}} ml",
+    "waterReached": "{{date}}: {{amount}} ml, goal reached",
+    "breaks_one": "{{date}}: {{count}} break",
+    "breaks_other": "{{date}}: {{count}} breaks",
+    "focus": "{{date}}: {{time}} of focus"
+  },
+  "emptyTitle": "Nothing in this period yet",
+  "emptyBody": "What you log on the Today screen shows up here, day by day."
+}

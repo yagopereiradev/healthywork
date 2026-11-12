@@ -1,0 +1,26 @@
+{
+  "drinks": {
+    "water": "Water",
+    "coffee": "Coffee",
+    "tea": "Tea",
+    "other": "Another drink"
+  },
+  "glass": "Glass at {{percent}}% of the goal",
+  "glassReached": "Full glass, today's goal reached",
+  "log": {
+    "title": "Log a drink",
+    "body": "Every drink counts toward your goal.",
+    "amount": "Amount",
+    "amountOption": "{{amount}} ml",
+    "custom": "Other",
+    "customLabel": "Amount in ml",
+    "invalid": "Use a number between 1 and {{max}} ml.",
+    "drink": "Drink",
+    "submit": "Log {{amount}} ml",
+    "submitEmpty": "Log"
+  },
+  "toast": {
+    "logged": "{{amount}} ml logged",
+    "goal": "Today's water goal reached"
+  }
+}

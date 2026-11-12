@@ -1,0 +1,57 @@
+{
+  "nav": {
+    "label": "Principal",
+    "skip": "Pular para o conteúdo",
+    "today": "Hoje",
+    "focus": "Foco",
+    "history": "Histórico",
+    "settings": "Ajustes"
+  },
+  "modules": {
+    "water": "Água",
+    "breaks": "Pausas",
+    "focus": "Foco"
+  },
+  "actions": {
+    "undo": "Desfazer",
+    "cancel": "Cancelar",
+    "close": "Fechar",
+    "gotIt": "Entendi",
+    "why": "Por quê?",
+    "newTab": "abre em nova aba"
+  },
+  "install": {
+    "pitch": "Instale no computador pra receber os lembretes com a janela minimizada.",
+    "action": "Instalar app"
+  },
+  "update": {
+    "message": "Tem uma versão nova do HealthyWork.",
+    "action": "Atualizar"
+  },
+  "toasts": {
+    "region": "Avisos",
+    "saveFailed": "Não deu pra salvar. Tente de novo."
+  },
+  "shortcuts": {
+    "title": "Atalhos do teclado",
+    "open": "Atalhos do teclado",
+    "water": "Registrar 250 ml de água",
+    "break": "Registrar uma pausa feita",
+    "help": "Abrir esta lista",
+    "note": "Os atalhos ficam em silêncio enquanto você digita em um campo.",
+    "meeting": "Entrar em reunião ou voltar dela",
+    "focus": "Iniciar, pausar ou continuar o foco"
+  },
+  "disclaimer": "O HealthyWork não substitui orientação médica. As metas são sugestões e você pode ajustar todas. Se você tem restrição de líquidos ou uma condição de saúde, siga o que o seu médico indicar.",
+  "state": {
+    "loading": "Carregando",
+    "errorTitle": "Não deu pra carregar seus dados",
+    "errorBody": "Eles continuam salvos neste dispositivo. Tente de novo.",
+    "retry": "Tentar de novo"
+  },
+  "duration": {
+    "hoursMinutes": "{{hours}}h{{minutes}}",
+    "hours": "{{hours}}h",
+    "minutes": "{{minutes}} min"
+  }
+}

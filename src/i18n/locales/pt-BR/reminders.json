@@ -1,0 +1,61 @@
+{
+  "water": {
+    "title": "Que tal um copo de água?",
+    "body": "Faltam {{amount}} ml pra sua meta de hoje.",
+    "log": "+ {{amount}} ml",
+    "snooze": "Adiar 10 min",
+    "dismiss": "Agora não",
+    "snoozed": "Lembrete de água adiado por 10 minutos"
+  },
+  "break": {
+    "title": "Hora da pausa"
+  },
+  "meeting": {
+    "button": "Em reunião",
+    "back": "Voltei",
+    "title": "Em reunião?",
+    "body": "Os lembretes ficam em silêncio e voltam sozinhos depois.",
+    "duration": "Por quanto tempo",
+    "option30": "30 minutos",
+    "option60": "1 hora",
+    "optionOpen": "Até eu voltar",
+    "until": "até {{time}}",
+    "manual": "manual",
+    "confirm": "Silenciar lembretes",
+    "started": "Lembretes em silêncio até {{time}}",
+    "startedOpen": "Lembretes em silêncio até você voltar",
+    "ended": "Lembretes ativos de novo"
+  },
+  "status": {
+    "active": "lembretes ativos até {{time}}",
+    "meeting": "em reunião até {{time}}",
+    "meetingOpen": "em reunião",
+    "off": "fora do expediente"
+  },
+  "silenced": {
+    "title": "Lembretes em silêncio",
+    "until": "Voltam sozinhos às {{time}}.",
+    "open": "Voltam quando você avisar."
+  },
+  "off": {
+    "title": "Fora do expediente",
+    "body": "Os lembretes ficam em silêncio fora do seu horário de trabalho.",
+    "resumesToday": "Voltam hoje às {{time}}.",
+    "resumesTomorrow": "Voltam amanhã às {{time}}.",
+    "resumesWeekday": "Voltam {{weekday}} às {{time}}."
+  },
+  "upcoming": {
+    "water": "Lembrete de água",
+    "break": "Pausa · {{type}}"
+  },
+  "settings": {
+    "title": "Notificações",
+    "system": "Notificações do sistema",
+    "sound": "Som dos lembretes",
+    "volume": "Volume",
+    "test": "Ouvir",
+    "denied": "As notificações estão bloqueadas pro HealthyWork neste navegador. Dá pra liberar nas configurações do site.",
+    "unsupported": "Este navegador não mostra notificações. Os lembretes aparecem dentro do app.",
+    "openOnly": "Os lembretes funcionam com o app aberto, mesmo minimizado. Com o app fechado, eles não chegam."
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "nav": {
+    "label": "Main",
+    "skip": "Skip to content",
+    "today": "Today",
+    "focus": "Focus",
+    "history": "History",
+    "settings": "Settings"
+  },
+  "modules": {
+    "water": "Water",
+    "breaks": "Breaks",
+    "focus": "Focus"
+  },
+  "actions": {
+    "undo": "Undo",
+    "cancel": "Cancel",
+    "close": "Close",
+    "gotIt": "Got it",
+    "why": "Why?",
+    "newTab": "opens in a new tab"
+  },
+  "install": {
+    "pitch": "Install it on your computer to get reminders while the window is minimized.",
+    "action": "Install app"
+  },
+  "update": {
+    "message": "A new version of HealthyWork is available.",
+    "action": "Update"
+  },
+  "toasts": {
+    "region": "Notices",
+    "saveFailed": "That could not be saved. Try again."
+  },
+  "shortcuts": {
+    "title": "Keyboard shortcuts",
+    "open": "Keyboard shortcuts",
+    "water": "Log 250 ml of water",
+    "break": "Log a break you took",
+    "help": "Open this list",
+    "note": "Shortcuts stay quiet while you type in a field.",
+    "meeting": "Start a meeting or come back from it",
+    "focus": "Start, pause or resume focus"
+  },
+  "disclaimer": "HealthyWork does not replace medical advice. Goals are suggestions and you can adjust every one of them. If you have a fluid restriction or a health condition, follow what your doctor tells you.",
+  "state": {
+    "loading": "Loading",
+    "errorTitle": "Your data could not be loaded",
+    "errorBody": "It is still saved on this device. Try again.",
+    "retry": "Try again"
+  },
+  "duration": {
+    "hoursMinutes": "{{hours}}h {{minutes}}m",
+    "hours": "{{hours}}h",
+    "minutes": "{{minutes}} min"
+  }
+}

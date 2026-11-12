@@ -1,0 +1,61 @@
+{
+  "water": {
+    "title": "How about a glass of water?",
+    "body": "{{amount}} ml to go for your goal today.",
+    "log": "+ {{amount}} ml",
+    "snooze": "Postpone 10 min",
+    "dismiss": "Not now",
+    "snoozed": "Water reminder postponed for 10 minutes"
+  },
+  "break": {
+    "title": "Time for a break"
+  },
+  "meeting": {
+    "button": "In a meeting",
+    "back": "I am back",
+    "title": "In a meeting?",
+    "body": "Reminders go quiet and come back on their own afterwards.",
+    "duration": "For how long",
+    "option30": "30 minutes",
+    "option60": "1 hour",
+    "optionOpen": "Until I am back",
+    "until": "until {{time}}",
+    "manual": "manual",
+    "confirm": "Silence reminders",
+    "started": "Reminders silenced until {{time}}",
+    "startedOpen": "Reminders silenced until you are back",
+    "ended": "Reminders are active again"
+  },
+  "status": {
+    "active": "reminders active until {{time}}",
+    "meeting": "in a meeting until {{time}}",
+    "meetingOpen": "in a meeting",
+    "off": "outside working hours"
+  },
+  "silenced": {
+    "title": "Reminders are silenced",
+    "until": "They come back on their own at {{time}}.",
+    "open": "They come back when you say so."
+  },
+  "off": {
+    "title": "Outside working hours",
+    "body": "Reminders stay quiet outside your working hours.",
+    "resumesToday": "They are back today at {{time}}.",
+    "resumesTomorrow": "They are back tomorrow at {{time}}.",
+    "resumesWeekday": "They are back on {{weekday}} at {{time}}."
+  },
+  "upcoming": {
+    "water": "Water reminder",
+    "break": "Break · {{type}}"
+  },
+  "settings": {
+    "title": "Notifications",
+    "system": "System notifications",
+    "sound": "Reminder sound",
+    "volume": "Volume",
+    "test": "Listen",
+    "denied": "Notifications are blocked for HealthyWork in this browser. You can allow them in the site settings.",
+    "unsupported": "This browser does not show notifications. Reminders appear inside the app.",
+    "openOnly": "Reminders work while the app is open, even minimized. With the app closed, they do not arrive."
+  }
+}

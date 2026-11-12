@@ -1,0 +1,66 @@
+{
+  "types": {
+    "walk": "walk",
+    "neck-shoulders": "stretch neck and shoulders",
+    "eyes": "rest your eyes",
+    "wrists": "loosen your wrists",
+    "back": "stretch your back"
+  },
+  "exercises": {
+    "walk": {
+      "title": "Get up and walk",
+      "lead": "A few minutes already count. Go to the window or get more water.",
+      "step1": "Stand up and leave the chair",
+      "step2": "Walk at your own pace, no rush",
+      "step3": "Refill your glass of water while you are up"
+    },
+    "neck-shoulders": {
+      "title": "Stretch neck and shoulders",
+      "lead": "One minute already helps. You can stay seated.",
+      "step1": "Tilt your head to each side, 10 seconds",
+      "step2": "Roll your shoulders back 10 times, slowly",
+      "step3": "Lace your fingers and stretch your arms up"
+    },
+    "eyes": {
+      "title": "Rest your eyes",
+      "lead": "It is the 20-20-20 rule: 20 seconds looking far away.",
+      "step1": "Take your eyes off the screen",
+      "step2": "Look at something about 20 feet (6 metres) away",
+      "step3": "Blink slowly a few times"
+    },
+    "wrists": {
+      "title": "Loosen your wrists",
+      "lead": "One minute, right where you are.",
+      "step1": "Stretch one arm and pull the fingers back with the other hand",
+      "step2": "Switch sides",
+      "step3": "Circle your wrists slowly, 5 times each way"
+    },
+    "back": {
+      "title": "Stretch your back",
+      "lead": "One minute on your feet already helps.",
+      "step1": "Stand up and lace your fingers above your head",
+      "step2": "Stretch upward and take a deep breath",
+      "step3": "Lean slowly to each side"
+    }
+  },
+  "screen": {
+    "eyebrow": "Time for a break",
+    "sinceLast": "{{minutes}} min since your last break",
+    "remaining": "{{time}} left",
+    "steps": "Step by step",
+    "done": "Done",
+    "snooze": "Postpone 10 min",
+    "skip": "Skip"
+  },
+  "next": {
+    "eyebrowIn": "Up next · break in {{minutes}} min",
+    "eyebrowSoon": "Up next · break in a moment",
+    "doNow": "Do it now",
+    "snooze": "Postpone 10 min"
+  },
+  "toast": {
+    "logged": "Break logged",
+    "done": "Break done",
+    "snoozed": "Break postponed for 10 minutes"
+  }
+}

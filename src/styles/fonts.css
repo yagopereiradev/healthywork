@@ -1,0 +1,23 @@
+/*
+ * Self-hosted variable fonts, Latin subset only (covers pt-BR, es and en).
+ * No request ever leaves the device for a font, and both files are precached
+ * by the service worker so the app looks the same offline.
+ */
+
+@font-face {
+  font-family: 'Sora Variable';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 100 800;
+  src: url('@fontsource-variable/sora/files/sora-latin-wght-normal.woff2')
+    format('woff2-variations');
+}
+
+@font-face {
+  font-family: 'Inter Variable';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 100 900;
+  src: url('@fontsource-variable/inter/files/inter-latin-wght-normal.woff2')
+    format('woff2-variations');
+}

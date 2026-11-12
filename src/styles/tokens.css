@@ -1,0 +1,132 @@
+/*
+ * HealthyWork design tokens: direction "Calma".
+ *
+ * Every colour in the app comes from here. Each module owns one colour family
+ * and always uses it: water (teal), move (terracotta), focus (indigo).
+ *
+ * Per module:
+ *   --hw-<m>          accent: progress fills, primary buttons, timeline dots
+ *   --hw-<m>-on       text/icons on the accent
+ *   --hw-<m>-soft     tinted background: progress tracks, soft cards
+ *   --hw-<m>-ink      accent-coloured text on bg / surface / soft
+ *   --hw-<m>-weak     de-emphasised fill (chart bars for days below the goal)
+ *   --hw-<m>-line     border on the soft background
+ *   --hw-<m>-solid    large solid card (the "Now" card, the share image)
+ *   --hw-<m>-muted    secondary text on the solid card
+ *   --hw-<m>-deep     inset block or track on the solid card
+ *
+ * The dark theme is designed, not inverted: accents get lighter so they can
+ * carry dark text, while large solid cards stay deep so they never glare.
+ * src/styles/tokens.test.ts checks every text pair below for WCAG AA.
+ */
+
+:root,
+[data-theme='light'] {
+  color-scheme: light;
+
+  --hw-bg: #f2f5f3;
+  --hw-surface: #ffffff;
+  --hw-raised: #ffffff;
+  --hw-ink: #17302f;
+  --hw-ink-2: #4a6565;
+  --hw-line: #c9d8d5;
+  --hw-divider: #e4ecea;
+  --hw-control: #6f8b88;
+  --hw-brand: #17707c;
+  --hw-solid-on: #ffffff;
+  --hw-ring: #17302f;
+  --hw-scrim: rgb(23 48 47 / 0.45);
+  --hw-shadow: 0 8px 24px rgb(23 48 47 / 0.14);
+
+  --hw-inverse: #17302f;
+  --hw-inverse-on: #ffffff;
+  --hw-inverse-raised: #2b4947;
+  --hw-inverse-accent: #8fd3db;
+
+  --hw-water: #17707c;
+  --hw-water-on: #ffffff;
+  --hw-water-soft: #e3f0ef;
+  --hw-water-ink: #17707c;
+  --hw-water-weak: #8fc4ca;
+  --hw-water-line: #b5d5d6;
+  --hw-water-solid: #17707c;
+  --hw-water-muted: #cdebee;
+  --hw-water-deep: #0f525b;
+
+  --hw-move: #b5532c;
+  --hw-move-on: #ffffff;
+  --hw-move-soft: #f8e9e1;
+  --hw-move-ink: #9a4320;
+  --hw-move-ink-2: #5c4337;
+  --hw-move-weak: #e5b9a4;
+  --hw-move-line: #d9b6a4;
+  --hw-move-solid: #b5532c;
+  --hw-move-muted: #fff7f2;
+  --hw-move-deep: #8a3d1e;
+
+  --hw-focus: #3d4a8f;
+  --hw-focus-on: #ffffff;
+  --hw-focus-soft: #e6e8f5;
+  --hw-focus-ink: #3d4a8f;
+  --hw-focus-ink-2: #3f466e;
+  --hw-focus-weak: #b9bfe0;
+  --hw-focus-line: #c3c8e6;
+  --hw-focus-solid: #3d4a8f;
+  --hw-focus-muted: #d5daf5;
+  --hw-focus-deep: #2c376f;
+}
+
+[data-theme='dark'] {
+  color-scheme: dark;
+
+  --hw-bg: #0e1817;
+  --hw-surface: #172524;
+  --hw-raised: #1e302f;
+  --hw-ink: #e6efed;
+  --hw-ink-2: #a3b9b6;
+  --hw-line: #36504d;
+  --hw-divider: #243836;
+  --hw-control: #6f8b88;
+  --hw-brand: #17707c;
+  --hw-solid-on: #ffffff;
+  --hw-ring: #e6efed;
+  --hw-scrim: rgb(3 10 10 / 0.66);
+  --hw-shadow: 0 8px 24px rgb(0 0 0 / 0.4);
+
+  --hw-inverse: #e6efed;
+  --hw-inverse-on: #17302f;
+  --hw-inverse-raised: #cddcd9;
+  --hw-inverse-accent: #0f525b;
+
+  --hw-water: #5bbdc8;
+  --hw-water-on: #06292d;
+  --hw-water-soft: #16383b;
+  --hw-water-ink: #7fd0d9;
+  --hw-water-weak: #2d6870;
+  --hw-water-line: #2a5a60;
+  --hw-water-solid: #14606a;
+  --hw-water-muted: #c3e7eb;
+  --hw-water-deep: #0c454d;
+
+  --hw-move: #e2906a;
+  --hw-move-on: #341406;
+  --hw-move-soft: #3b241b;
+  --hw-move-ink: #f0a887;
+  --hw-move-ink-2: #d9bcae;
+  --hw-move-weak: #7a4632;
+  --hw-move-line: #6d4535;
+  --hw-move-solid: #9a4320;
+  --hw-move-muted: #f8dccd;
+  --hw-move-deep: #73300f;
+
+  --hw-focus: #95a1e8;
+  --hw-focus-on: #131b47;
+  --hw-focus-soft: #242b4f;
+  --hw-focus-ink: #adb7f1;
+  --hw-focus-ink-2: #c3c8e3;
+  --hw-focus-weak: #4a548f;
+  --hw-focus-line: #414a82;
+  --hw-focus-solid: #38458b;
+  --hw-focus-muted: #d5daf5;
+  --hw-focus-deep: #262f69;
+}

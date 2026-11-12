@@ -1,0 +1,30 @@
+{
+  "step": "Passo {{step}} de {{total}}",
+  "continue": "Continuar",
+  "back": "Voltar",
+  "water": {
+    "title": "Quanta água faz sentido pra você?",
+    "body": "É uma meta sugerida, não uma regra. Toda bebida conta, e dá pra mudar quando quiser.",
+    "label": "Meta diária de água",
+    "option": "{{amount}} ml",
+    "suggested": "sugestão"
+  },
+  "workday": {
+    "title": "Qual é o seu horário de trabalho?",
+    "body": "Os lembretes só aparecem dentro desse horário. Fora dele, o app fica em silêncio.",
+    "days": "Dias da semana",
+    "estimate": "Com {{hours}} de expediente, você vai receber cerca de {{water}} lembretes de água e {{breaks}} de pausa por dia. Dá pra ajustar depois.",
+    "noDays": "Escolha pelo menos um dia pra receber lembretes."
+  },
+  "notifications": {
+    "title": "Quer receber os lembretes como notificação?",
+    "body": "Assim eles chegam mesmo com o HealthyWork minimizado. Sem isso, aparecem só dentro do app.",
+    "exampleLabel": "Exemplo de notificação",
+    "exampleApp": "HealthyWork · agora",
+    "note": "Os lembretes funcionam com o app aberto, mesmo minimizado. Com o app fechado, eles não chegam.",
+    "enable": "Ativar notificações",
+    "skip": "Agora não",
+    "denied": "As notificações estão bloqueadas neste navegador. Os lembretes vão aparecer dentro do app.",
+    "finish": "Começar"
+  }
+}

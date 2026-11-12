@@ -1,0 +1,30 @@
+{
+  "open": "Generar resumen de la semana",
+  "title": "Resumen de la semana",
+  "body": "Una imagen con tus números, para guardar o compartir. Se crea aquí, en tu dispositivo.",
+  "week": {
+    "label": "Semana",
+    "this": "Esta semana",
+    "last": "Semana pasada"
+  },
+  "generating": "Creando la imagen",
+  "failed": "No se pudo crear la imagen.",
+  "empty": "Todavía no hay registros en los días de trabajo de esa semana. La imagen sale con ceros.",
+  "download": "Descargar PNG",
+  "downloaded": "Imagen descargada",
+  "share": "Compartir",
+  "fileName": "healthywork-semana-{{date}}.png",
+  "alt": "Resumen de la semana, {{period}}: {{liters}} de agua, {{breaks}} {{breaksLabel}}, {{focus}} de foco. {{days}}.",
+  "card": {
+    "heading": "Mi semana en el trabajo",
+    "liters": "{{amount}} L",
+    "water": "de agua",
+    "breaks_one": "pausa para moverme",
+    "breaks_other": "pausas para moverme",
+    "focus": "de foco",
+    "days_zero": "Ningún día en la meta de agua todavía",
+    "days_one": "{{count}} día en la meta de agua",
+    "days_other": "{{count}} días en la meta de agua",
+    "footer": "Gratis y de código abierto · tus datos se quedan en tu dispositivo"
+  }
+}

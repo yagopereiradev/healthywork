@@ -1,0 +1,89 @@
+{
+  "save": "Save",
+  "water": {
+    "goal": "Daily goal",
+    "goalValue": "{{amount}} ml",
+    "goalBody": "It is a suggestion. Adjust it to what makes sense for you.",
+    "custom": "Another amount",
+    "customLabel": "Goal in ml",
+    "goalInvalid": "Use an amount between {{min}} and {{max}} ml.",
+    "every": "Remind every",
+    "everyValue": "{{minutes}} min",
+    "everyBody": "Water reminders stop for the day once you reach the goal."
+  },
+  "breaks": {
+    "pace": "Pace",
+    "paceValue": "{{rest}} min every {{every}}",
+    "paceRecommended": "{{rest}} min every {{every}} · recommended",
+    "recommended": "recommended",
+    "paceBody": "The recommended pace comes from the study with 5-minute walks every 30.",
+    "types": "Kinds of break",
+    "typesValue_one": "{{count}} on",
+    "typesValue_other": "{{count}} on",
+    "typesBody": "Suggestions take turns among the kinds that are on.",
+    "typesMin": "Keep at least one kind on."
+  },
+  "focus": {
+    "block": "Default block",
+    "blockValue": "{{focus}} min + {{rest}} of break",
+    "blockBody": "It is the block that starts when you start focusing.",
+    "custom": "Other",
+    "goal": "Daily goal",
+    "goalBody": "How much focus time makes sense in a day, for you."
+  },
+  "workday": {
+    "title": "Working hours",
+    "hours": "Hours",
+    "hoursValue": "{{start}} to {{end}}",
+    "hoursBody": "Reminders only appear within these hours.",
+    "start": "Start",
+    "end": "End",
+    "days": "Days",
+    "daysBody": "On the other days the app stays quiet.",
+    "weekdays": "Monday to Friday",
+    "everyDay": "Every day",
+    "daysCount_one": "{{count}} day",
+    "daysCount_other": "{{count}} days",
+    "noDays": "No days"
+  },
+  "appearance": {
+    "title": "Appearance",
+    "theme": "Theme",
+    "themeSystem": "Same as system",
+    "themeLight": "Light",
+    "themeDark": "Dark",
+    "language": "Language",
+    "languageAuto": "Automatic"
+  },
+  "install": {
+    "title": "Install",
+    "row": "Install app",
+    "pitch": "Installed, HealthyWork opens in its own window and reminds you even when minimized.",
+    "safariMac": "In Safari, open the File menu and choose Add to Dock.",
+    "ios": "On iPhone or iPad, tap Share and then Add to Home Screen.",
+    "other": "In Chrome or Edge, use the install button in the address bar.",
+    "installed": "HealthyWork is already installed on this device."
+  },
+  "data": {
+    "title": "Your data",
+    "export": "Export to a file",
+    "exportValue": "JSON",
+    "exported": "File exported",
+    "import": "Import from a file",
+    "importTitle": "Import this file?",
+    "importBody": "The data on this device will be replaced by the file. This cannot be undone.",
+    "importSummary": "The file has {{water}} water records, {{breaks}} breaks and {{focus}} focus blocks.",
+    "importConfirm": "Replace my data",
+    "imported": "Data imported",
+    "importNotHealthywork": "That file is not a HealthyWork backup. Nothing was changed.",
+    "importNewer": "That file comes from a newer version of HealthyWork. Update the app and try again.",
+    "importInvalid": "That file is incomplete or damaged. Nothing was changed.",
+    "importUnreadable": "That file could not be read. Nothing was changed.",
+    "erase": "Erase everything",
+    "eraseTitle": "Erase everything?",
+    "eraseBody": "All your records and settings will be erased from this device. This cannot be undone. If you want to keep a copy, export first.",
+    "eraseConfirm": "Erase everything",
+    "erased": "Everything erased",
+    "privacy": "Everything is saved on this device only. Nothing is sent to any server."
+  }
+}

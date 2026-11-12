@@ -1,0 +1,82 @@
+{
+  "readSource": "Read the original source",
+  "water": {
+    "eyebrow": "Water · why?",
+    "question": "How much water makes sense in a day?",
+    "findingLabel": "What the sources say",
+    "finding": "The \"8 glasses a day\" rule has no scientific basis, and the water in food and in other drinks counts too. EFSA, the European food safety authority, considers 2.0 litres a day adequate for women and 2.5 for men.",
+    "limitLabel": "The limit",
+    "limit": "These are reference values for a population, not a prescription for you. That is why the goal here is a suggestion, and you can adjust it.",
+    "sources": {
+      "sciam": {
+        "authors": "Negoianu and Goldfarb, 2008, and Heinz Valtin",
+        "where": "Reported by Scientific American, 2009"
+      },
+      "efsa": {
+        "authors": "EFSA, 2010",
+        "where": "European dietary reference values for nutrient intakes"
+      }
+    }
+  },
+  "breaks": {
+    "eyebrow": "Breaks · why?",
+    "question": "Why 5 minutes every 30?",
+    "findingLabel": "What the study showed",
+    "finding": "Over 8 hours of sitting, walking for 5 minutes every half hour was the only pattern tested that lowered both the blood sugar spike after meals and blood pressure. Tiredness went down too.",
+    "limitLabel": "The limit of the study",
+    "limit": "There were 11 participants, in a laboratory. It is a good indication, not a guarantee.",
+    "sources": {
+      "diaz": {
+        "authors": "Diaz and colleagues, Columbia University, 2023",
+        "where": "Medicine & Science in Sports & Exercise"
+      }
+    }
+  },
+  "focus": {
+    "eyebrow": "Focus · why?",
+    "question": "Why blocks with a scheduled break?",
+    "findingLabel": "What the study showed",
+    "finding": "Students with scheduled breaks reported less tiredness and distraction, and more concentration, than those who stopped whenever they felt like it.",
+    "limitLabel": "The limit of the study",
+    "limit": "There were 87 students, over one day of study. Both groups completed the same amount of work: the gain is in how the work feels, not in how much gets done.",
+    "sources": {
+      "biwer": {
+        "authors": "Biwer and colleagues, Maastricht University, 2023",
+        "where": "British Journal of Educational Psychology"
+      }
+    }
+  },
+  "eyes": {
+    "eyebrow": "Eyes · why?",
+    "question": "Why look far away for 20 seconds?",
+    "findingLabel": "What the study showed",
+    "finding": "Two weeks of reminders to follow the 20-20-20 rule reduced symptoms of eye strain and dry eye.",
+    "limitLabel": "The limit of the study",
+    "limit": "There were 29 participants. Only the symptoms improved, and the effect was gone one week after the reminders stopped.",
+    "sources": {
+      "talens": {
+        "authors": "Talens-Estarelles and colleagues, 2022",
+        "where": "Contact Lens & Anterior Eye"
+      }
+    }
+  },
+  "microbreaks": {
+    "eyebrow": "Short breaks · why?",
+    "question": "Why such a short break?",
+    "findingLabel": "What the study showed",
+    "finding": "Breaks of up to 10 minutes increase energy and reduce tiredness. Both effects are small.",
+    "limitLabel": "The limit of the study",
+    "limit": "The review pooled 22 study samples and found no significant improvement in performance. The break is for you to feel better, not to get more done.",
+    "sources": {
+      "albulescu": {
+        "authors": "Albulescu and colleagues, 2022",
+        "where": "PLOS ONE"
+      }
+    }
+  },
+  "change": {
+    "water": "Change the goal",
+    "breaks": "Change the pace",
+    "focus": "Change the block"
+  }
+}

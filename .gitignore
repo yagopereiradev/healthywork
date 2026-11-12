@@ -1,0 +1,16 @@
+node_modules
+dist
+dev-dist
+dist-pages
+coverage
+playwright-report
+test-results
+*.local
+*.log
+.DS_Store
+Thumbs.db
+.vscode/*
+!.vscode/extensions.json
+.idea
+.claude/settings.local.json
+blob-report

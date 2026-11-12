@@ -1,0 +1,26 @@
+{
+  "drinks": {
+    "water": "Água",
+    "coffee": "Café",
+    "tea": "Chá",
+    "other": "Outra bebida"
+  },
+  "glass": "Copo com {{percent}}% da meta",
+  "glassReached": "Copo cheio, meta de hoje batida",
+  "log": {
+    "title": "Registrar bebida",
+    "body": "Toda bebida conta pra sua meta.",
+    "amount": "Quantidade",
+    "amountOption": "{{amount}} ml",
+    "custom": "Outro",
+    "customLabel": "Quantidade em ml",
+    "invalid": "Use um número entre 1 e {{max}} ml.",
+    "drink": "Bebida",
+    "submit": "Registrar {{amount}} ml",
+    "submitEmpty": "Registrar"
+  },
+  "toast": {
+    "logged": "{{amount}} ml registrados",
+    "goal": "Meta de água de hoje batida"
+  }
+}

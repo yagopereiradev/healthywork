@@ -1,0 +1,61 @@
+{
+  "water": {
+    "title": "¿Qué tal un vaso de agua?",
+    "body": "Faltan {{amount}} ml para tu meta de hoy.",
+    "log": "+ {{amount}} ml",
+    "snooze": "Posponer 10 min",
+    "dismiss": "Ahora no",
+    "snoozed": "Recordatorio de agua pospuesto 10 minutos"
+  },
+  "break": {
+    "title": "Hora de la pausa"
+  },
+  "meeting": {
+    "button": "En reunión",
+    "back": "Ya volví",
+    "title": "¿En reunión?",
+    "body": "Los recordatorios quedan en silencio y vuelven solos después.",
+    "duration": "Por cuánto tiempo",
+    "option30": "30 minutos",
+    "option60": "1 hora",
+    "optionOpen": "Hasta que vuelva",
+    "until": "hasta las {{time}}",
+    "manual": "manual",
+    "confirm": "Silenciar recordatorios",
+    "started": "Recordatorios en silencio hasta las {{time}}",
+    "startedOpen": "Recordatorios en silencio hasta que vuelvas",
+    "ended": "Recordatorios activos de nuevo"
+  },
+  "status": {
+    "active": "recordatorios activos hasta las {{time}}",
+    "meeting": "en reunión hasta las {{time}}",
+    "meetingOpen": "en reunión",
+    "off": "fuera del horario"
+  },
+  "silenced": {
+    "title": "Recordatorios en silencio",
+    "until": "Vuelven solos a las {{time}}.",
+    "open": "Vuelven cuando avises."
+  },
+  "off": {
+    "title": "Fuera del horario",
+    "body": "Los recordatorios quedan en silencio fuera de tu horario de trabajo.",
+    "resumesToday": "Vuelven hoy a las {{time}}.",
+    "resumesTomorrow": "Vuelven mañana a las {{time}}.",
+    "resumesWeekday": "Vuelven el {{weekday}} a las {{time}}."
+  },
+  "upcoming": {
+    "water": "Recordatorio de agua",
+    "break": "Pausa · {{type}}"
+  },
+  "settings": {
+    "title": "Notificaciones",
+    "system": "Notificaciones del sistema",
+    "sound": "Sonido de los recordatorios",
+    "volume": "Volumen",
+    "test": "Escuchar",
+    "denied": "Las notificaciones están bloqueadas para HealthyWork en este navegador. Puedes permitirlas en la configuración del sitio.",
+    "unsupported": "Este navegador no muestra notificaciones. Los recordatorios aparecen dentro de la app.",
+    "openOnly": "Los recordatorios funcionan con la app abierta, incluso minimizada. Con la app cerrada, no llegan."
+  }
+}

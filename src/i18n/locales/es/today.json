@@ -1,0 +1,41 @@
+{
+  "progress": {
+    "title": "Tu progreso de hoy",
+    "water": "{{current}} de {{goal}} ml",
+    "waterRest": "de {{goal}} ml",
+    "breaks": "{{done}} de {{planned}}",
+    "breaksRest": "de {{planned}}",
+    "focus": "{{current}} de {{goal}}",
+    "focusRest": "de {{goal}}"
+  },
+  "now": {
+    "eyebrow": "Ahora",
+    "idleTitle": "¿Qué tal un bloque de foco?",
+    "idleBody": "{{focus}} minutos de foco y {{rest}} de pausa al final.",
+    "start": "Iniciar bloque"
+  },
+  "day": {
+    "title": "Tu día",
+    "emptyTitle": "Tu día empieza aquí",
+    "emptyBody": "Registra el primer vaso de agua para empezar la línea de tiempo.",
+    "water": "{{drink}} · {{amount}} ml",
+    "break": "Pausa · {{type}}",
+    "breakPlain": "Pausa",
+    "focus_one": "Foco · {{count}} minuto",
+    "focus_other": "Foco · {{count}} minutos"
+  },
+  "week": {
+    "title": "Tu semana",
+    "streak_zero": "Agua en los últimos 7 días",
+    "streak_one": "{{count}} día seguido en la meta",
+    "streak_other": "{{count}} días seguidos en la meta",
+    "day": "{{weekday}}: {{amount}} ml",
+    "dayReached": "{{weekday}}: {{amount}} ml, meta alcanzada"
+  },
+  "actions": {
+    "label": "Registros rápidos",
+    "addWater": "+ {{amount}} ml de agua",
+    "moreWater": "Otra cantidad o bebida",
+    "tookBreak": "Hice una pausa"
+  }
+}

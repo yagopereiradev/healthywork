@@ -1,0 +1,53 @@
+{
+  "presets": {
+    "label": "Duración del bloque",
+    "option": "{{focus}} / {{rest}}",
+    "optionLabel": "{{focus}} minutos de foco, {{rest}} de pausa",
+    "custom": "Otro"
+  },
+  "custom": {
+    "title": "Un bloque a tu manera",
+    "body": "Elige cuánto tiempo de foco y de pausa.",
+    "focus": "Foco, en minutos",
+    "rest": "Pausa, en minutos",
+    "invalid": "Usa de {{focusMin}} a {{focusMax}} minutos de foco y de {{restMin}} a {{restMax}} de pausa.",
+    "save": "Usar este bloque"
+  },
+  "block": "Bloque {{block}} de {{total}}",
+  "ring": {
+    "idle": "{{minutes}} minutos de foco por delante",
+    "running": "Quedan {{time}} de {{minutes}} minutos",
+    "paused": "En pausa, quedan {{time}}"
+  },
+  "actions": {
+    "start": "Iniciar bloque",
+    "startNext": "Iniciar bloque {{block}}",
+    "pause": "Pausar",
+    "resume": "Continuar",
+    "stop": "Terminar"
+  },
+  "after": {
+    "eyebrow": "Después de este bloque",
+    "text": "Pausa de {{minutes}} min · {{type}}"
+  },
+  "footer": {
+    "today": "Hoy: {{time}} de foco",
+    "reminders": "El agua sigue activa. La pausa llega al final del bloque."
+  },
+  "now": {
+    "running": "Ahora · foco, bloque {{block}} de {{total}}",
+    "paused": "En pausa · bloque {{block}} de {{total}}",
+    "ready": "A continuación · bloque {{block}} de {{total}}",
+    "readyTitle": "¿Listo para el siguiente bloque?"
+  },
+  "toast": {
+    "stopped": "Foco terminado",
+    "stoppedLogged_one": "Foco terminado · {{count}} minuto registrado",
+    "stoppedLogged_other": "Foco terminado · {{count}} minutos registrados",
+    "cycleDone": "Ciclo de {{total}} bloques completado"
+  },
+  "notification": {
+    "title": "Bloque de foco completado",
+    "body": "Hora de la pausa: {{exercise}}"
+  }
+}

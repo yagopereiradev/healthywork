@@ -1,0 +1,82 @@
+{
+  "readSource": "Leer la fuente original",
+  "water": {
+    "eyebrow": "Agua · ¿por qué?",
+    "question": "¿Cuánta agua tiene sentido al día?",
+    "findingLabel": "Lo que dicen las fuentes",
+    "finding": "La regla de los \"8 vasos al día\" no tiene base científica, y el agua de la comida y de las demás bebidas también cuenta. La EFSA, autoridad europea de seguridad alimentaria, considera adecuados 2,0 litros al día para mujeres y 2,5 para hombres.",
+    "limitLabel": "El límite",
+    "limit": "Son valores de referencia para una población, no una receta para ti. Por eso la meta aquí es una sugerencia, y puedes ajustarla.",
+    "sources": {
+      "sciam": {
+        "authors": "Negoianu y Goldfarb, 2008, y Heinz Valtin",
+        "where": "Reportaje de Scientific American, 2009"
+      },
+      "efsa": {
+        "authors": "EFSA, 2010",
+        "where": "Valores de referencia europeos para la ingesta de nutrientes"
+      }
+    }
+  },
+  "breaks": {
+    "eyebrow": "Pausas · ¿por qué?",
+    "question": "¿Por qué 5 minutos cada 30?",
+    "findingLabel": "Lo que mostró el estudio",
+    "finding": "En 8 horas sentado, caminar 5 minutos cada media hora fue el único ritmo probado que bajó tanto el pico de azúcar en sangre después de las comidas como la presión. El cansancio también disminuyó.",
+    "limitLabel": "El límite del estudio",
+    "limit": "Fueron 11 participantes, en laboratorio. Es un buen indicio, no una garantía.",
+    "sources": {
+      "diaz": {
+        "authors": "Diaz y colegas, Universidad de Columbia, 2023",
+        "where": "Medicine & Science in Sports & Exercise"
+      }
+    }
+  },
+  "focus": {
+    "eyebrow": "Foco · ¿por qué?",
+    "question": "¿Por qué bloques con pausa programada?",
+    "findingLabel": "Lo que mostró el estudio",
+    "finding": "Los estudiantes con pausas programadas reportaron menos cansancio y distracción, y más concentración, que los que paraban cuando tenían ganas.",
+    "limitLabel": "El límite del estudio",
+    "limit": "Fueron 87 estudiantes, en un día de estudio. Los dos grupos completaron la misma cantidad de tareas: la mejora está en cómo se siente el trabajo, no en cuánto se hace.",
+    "sources": {
+      "biwer": {
+        "authors": "Biwer y colegas, Universidad de Maastricht, 2023",
+        "where": "British Journal of Educational Psychology"
+      }
+    }
+  },
+  "eyes": {
+    "eyebrow": "Ojos · ¿por qué?",
+    "question": "¿Por qué mirar a lo lejos durante 20 segundos?",
+    "findingLabel": "Lo que mostró el estudio",
+    "finding": "Dos semanas de recordatorios de la regla 20-20-20 redujeron los síntomas de fatiga visual y de ojo seco.",
+    "limitLabel": "El límite del estudio",
+    "limit": "Fueron 29 participantes. Solo mejoraron los síntomas, y el efecto desapareció una semana después de que pararon los recordatorios.",
+    "sources": {
+      "talens": {
+        "authors": "Talens-Estarelles y colegas, 2022",
+        "where": "Contact Lens & Anterior Eye"
+      }
+    }
+  },
+  "microbreaks": {
+    "eyebrow": "Pausas cortas · ¿por qué?",
+    "question": "¿Por qué una pausa tan corta?",
+    "findingLabel": "Lo que mostró el estudio",
+    "finding": "Las pausas de hasta 10 minutos aumentan la energía y reducen el cansancio. Los dos efectos son pequeños.",
+    "limitLabel": "El límite del estudio",
+    "limit": "La revisión reunió 22 muestras de estudios y no encontró una mejora significativa en el desempeño. La pausa es para que te sientas mejor, no para rendir más.",
+    "sources": {
+      "albulescu": {
+        "authors": "Albulescu y colegas, 2022",
+        "where": "PLOS ONE"
+      }
+    }
+  },
+  "change": {
+    "water": "Cambiar la meta",
+    "breaks": "Cambiar el ritmo",
+    "focus": "Cambiar el bloque"
+  }
+}

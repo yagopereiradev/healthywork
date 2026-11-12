@@ -1,0 +1,41 @@
+{
+  "progress": {
+    "title": "Your progress today",
+    "water": "{{current}} of {{goal}} ml",
+    "waterRest": "of {{goal}} ml",
+    "breaks": "{{done}} of {{planned}}",
+    "breaksRest": "of {{planned}}",
+    "focus": "{{current}} of {{goal}}",
+    "focusRest": "of {{goal}}"
+  },
+  "now": {
+    "eyebrow": "Now",
+    "idleTitle": "How about a focus block?",
+    "idleBody": "{{focus}} minutes of focus and a {{rest}}-minute break at the end.",
+    "start": "Start block"
+  },
+  "day": {
+    "title": "Your day",
+    "emptyTitle": "Your day starts here",
+    "emptyBody": "Log your first glass of water to start the timeline.",
+    "water": "{{drink}} · {{amount}} ml",
+    "break": "Break · {{type}}",
+    "breakPlain": "Break",
+    "focus_one": "Focus · {{count}} minute",
+    "focus_other": "Focus · {{count}} minutes"
+  },
+  "week": {
+    "title": "Your week",
+    "streak_zero": "Water over the last 7 days",
+    "streak_one": "{{count}} day in a row on goal",
+    "streak_other": "{{count}} days in a row on goal",
+    "day": "{{weekday}}: {{amount}} ml",
+    "dayReached": "{{weekday}}: {{amount}} ml, goal reached"
+  },
+  "actions": {
+    "label": "Quick logging",
+    "addWater": "+ {{amount}} ml of water",
+    "moreWater": "Another amount or drink",
+    "tookBreak": "I took a break"
+  }
+}

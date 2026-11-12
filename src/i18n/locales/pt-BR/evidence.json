@@ -1,0 +1,82 @@
+{
+  "readSource": "Ler a fonte original",
+  "water": {
+    "eyebrow": "Água · por quê?",
+    "question": "Quanta água faz sentido por dia?",
+    "findingLabel": "O que as fontes dizem",
+    "finding": "A regra dos \"8 copos por dia\" não tem base científica, e a água da comida e das outras bebidas também entra na conta. A EFSA, autoridade europeia de segurança alimentar, considera adequados 2,0 litros por dia pra mulheres e 2,5 pra homens.",
+    "limitLabel": "O limite",
+    "limit": "São valores de referência pra uma população, não uma receita pra você. Por isso a meta aqui é uma sugestão, e dá pra ajustar.",
+    "sources": {
+      "sciam": {
+        "authors": "Negoianu e Goldfarb, 2008, e Heinz Valtin",
+        "where": "Reportagem da Scientific American, 2009"
+      },
+      "efsa": {
+        "authors": "EFSA, 2010",
+        "where": "Valores de referência europeus pra ingestão de nutrientes"
+      }
+    }
+  },
+  "breaks": {
+    "eyebrow": "Pausas · por quê?",
+    "question": "Por que 5 minutos a cada 30?",
+    "findingLabel": "O que o estudo mostrou",
+    "finding": "Em 8 horas sentado, caminhar 5 minutos a cada meia hora foi o único ritmo testado que baixou tanto o pico de açúcar no sangue depois das refeições quanto a pressão. O cansaço também diminuiu.",
+    "limitLabel": "O limite do estudo",
+    "limit": "Foram 11 participantes, em laboratório. É um bom indício, não uma garantia.",
+    "sources": {
+      "diaz": {
+        "authors": "Diaz e colegas, Universidade Columbia, 2023",
+        "where": "Medicine & Science in Sports & Exercise"
+      }
+    }
+  },
+  "focus": {
+    "eyebrow": "Foco · por quê?",
+    "question": "Por que blocos com pausa marcada?",
+    "findingLabel": "O que o estudo mostrou",
+    "finding": "Estudantes com pausas programadas relataram menos cansaço e distração, e mais concentração, do que os que paravam quando sentiam vontade.",
+    "limitLabel": "O limite do estudo",
+    "limit": "Foram 87 estudantes, em um dia de estudo. Os dois grupos concluíram a mesma quantidade de tarefas: o ganho é em como o trabalho é sentido, não em quanto se faz.",
+    "sources": {
+      "biwer": {
+        "authors": "Biwer e colegas, Universidade de Maastricht, 2023",
+        "where": "British Journal of Educational Psychology"
+      }
+    }
+  },
+  "eyes": {
+    "eyebrow": "Olhos · por quê?",
+    "question": "Por que olhar pra longe por 20 segundos?",
+    "findingLabel": "O que o estudo mostrou",
+    "finding": "Duas semanas de lembretes da regra 20-20-20 reduziram os sintomas de cansaço visual e de olho seco.",
+    "limitLabel": "O limite do estudo",
+    "limit": "Foram 29 participantes. Só os sintomas melhoraram, e o efeito sumiu uma semana depois que os lembretes pararam.",
+    "sources": {
+      "talens": {
+        "authors": "Talens-Estarelles e colegas, 2022",
+        "where": "Contact Lens & Anterior Eye"
+      }
+    }
+  },
+  "microbreaks": {
+    "eyebrow": "Pausas curtas · por quê?",
+    "question": "Por que uma pausa tão curta?",
+    "findingLabel": "O que o estudo mostrou",
+    "finding": "Pausas de até 10 minutos aumentam a disposição e reduzem o cansaço. Os dois efeitos são pequenos.",
+    "limitLabel": "O limite do estudo",
+    "limit": "A revisão reuniu 22 amostras de estudos e não encontrou melhora significativa no desempenho. A pausa é pra você se sentir melhor, não pra render mais.",
+    "sources": {
+      "albulescu": {
+        "authors": "Albulescu e colegas, 2022",
+        "where": "PLOS ONE"
+      }
+    }
+  },
+  "change": {
+    "water": "Mudar a meta",
+    "breaks": "Mudar o ritmo",
+    "focus": "Mudar o bloco"
+  }
+}

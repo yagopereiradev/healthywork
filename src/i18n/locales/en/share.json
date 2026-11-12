@@ -1,0 +1,30 @@
+{
+  "open": "Create weekly summary",
+  "title": "Weekly summary",
+  "body": "An image with your numbers, to keep or to share. It is made right here, on your device.",
+  "week": {
+    "label": "Week",
+    "this": "This week",
+    "last": "Last week"
+  },
+  "generating": "Creating the image",
+  "failed": "The image could not be created.",
+  "empty": "Nothing is logged yet on the working days of that week. The image comes out with zeros.",
+  "download": "Download PNG",
+  "downloaded": "Image downloaded",
+  "share": "Share",
+  "fileName": "healthywork-week-{{date}}.png",
+  "alt": "Weekly summary, {{period}}: {{liters}} of water, {{breaks}} {{breaksLabel}}, {{focus}} of focus. {{days}}.",
+  "card": {
+    "heading": "My week at work",
+    "liters": "{{amount}} L",
+    "water": "of water",
+    "breaks_one": "movement break",
+    "breaks_other": "movement breaks",
+    "focus": "of focus",
+    "days_zero": "No days on my water goal yet",
+    "days_one": "{{count}} day on my water goal",
+    "days_other": "{{count}} days on my water goal",
+    "footer": "Free and open source · your data stays on your device"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "range": {
+    "7": "7 días",
+    "30": "30 días",
+    "label": "Período"
+  },
+  "streak_zero": "Ningún día seguido en la meta",
+  "streak_one": "{{count}} día seguido en la meta",
+  "streak_other": "{{count}} días seguidos en la meta",
+  "liters": "{{amount}} L",
+  "breaks_one": "{{count}} hecha",
+  "breaks_other": "{{count}} hechas",
+  "day": {
+    "water": "{{date}}: {{amount}} ml",
+    "waterReached": "{{date}}: {{amount}} ml, meta alcanzada",
+    "breaks_one": "{{date}}: {{count}} pausa",
+    "breaks_other": "{{date}}: {{count}} pausas",
+    "focus": "{{date}}: {{time}} de foco"
+  },
+  "emptyTitle": "Todavía no hay nada en este período",
+  "emptyBody": "Lo que registres en la pantalla Hoy aparece aquí, día a día."
+}

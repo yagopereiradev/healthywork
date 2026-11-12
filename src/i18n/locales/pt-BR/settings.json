@@ -1,0 +1,89 @@
+{
+  "save": "Salvar",
+  "water": {
+    "goal": "Meta diária",
+    "goalValue": "{{amount}} ml",
+    "goalBody": "É uma sugestão. Ajuste pro que faz sentido pra você.",
+    "custom": "Outro valor",
+    "customLabel": "Meta em ml",
+    "goalInvalid": "Use um valor entre {{min}} e {{max}} ml.",
+    "every": "Lembrar a cada",
+    "everyValue": "{{minutes}} min",
+    "everyBody": "Os lembretes de água param no dia depois que você bate a meta."
+  },
+  "breaks": {
+    "pace": "Ritmo",
+    "paceValue": "{{rest}} min a cada {{every}}",
+    "paceRecommended": "{{rest}} min a cada {{every}} · recomendado",
+    "recommended": "recomendado",
+    "paceBody": "O ritmo recomendado vem do estudo com caminhadas de 5 minutos a cada 30.",
+    "types": "Tipos de pausa",
+    "typesValue_one": "{{count}} ativo",
+    "typesValue_other": "{{count}} ativos",
+    "typesBody": "As sugestões se revezam entre os tipos ativos.",
+    "typesMin": "Deixe pelo menos um tipo ativo."
+  },
+  "focus": {
+    "block": "Bloco padrão",
+    "blockValue": "{{focus}} min + {{rest}} de pausa",
+    "blockBody": "É o bloco que começa quando você inicia o foco.",
+    "custom": "Outro",
+    "goal": "Meta diária",
+    "goalBody": "Quanto tempo de foco faz sentido num dia, pra você."
+  },
+  "workday": {
+    "title": "Expediente",
+    "hours": "Horário",
+    "hoursValue": "{{start}} às {{end}}",
+    "hoursBody": "Os lembretes só aparecem dentro desse horário.",
+    "start": "Começo",
+    "end": "Fim",
+    "days": "Dias",
+    "daysBody": "Nos outros dias o app fica em silêncio.",
+    "weekdays": "Segunda a sexta",
+    "everyDay": "Todos os dias",
+    "daysCount_one": "{{count}} dia",
+    "daysCount_other": "{{count}} dias",
+    "noDays": "Nenhum dia"
+  },
+  "appearance": {
+    "title": "Aparência",
+    "theme": "Tema",
+    "themeSystem": "Igual ao sistema",
+    "themeLight": "Claro",
+    "themeDark": "Escuro",
+    "language": "Idioma",
+    "languageAuto": "Automático"
+  },
+  "install": {
+    "title": "Instalar",
+    "row": "Instalar app",
+    "pitch": "Instalado, o HealthyWork abre na própria janela e avisa mesmo minimizado.",
+    "safariMac": "No Safari, abra o menu Arquivo e escolha Adicionar ao Dock.",
+    "ios": "No iPhone ou iPad, toque em Compartilhar e depois em Adicionar à Tela de Início.",
+    "other": "No Chrome ou no Edge, use o botão de instalar na barra de endereço.",
+    "installed": "O HealthyWork já está instalado neste dispositivo."
+  },
+  "data": {
+    "title": "Seus dados",
+    "export": "Exportar em arquivo",
+    "exportValue": "JSON",
+    "exported": "Arquivo exportado",
+    "import": "Importar de arquivo",
+    "importTitle": "Importar este arquivo?",
+    "importBody": "Os dados deste dispositivo serão substituídos pelos do arquivo. Não dá pra desfazer.",
+    "importSummary": "O arquivo tem {{water}} registros de água, {{breaks}} pausas e {{focus}} blocos de foco.",
+    "importConfirm": "Substituir meus dados",
+    "imported": "Dados importados",
+    "importNotHealthywork": "Esse arquivo não é um backup do HealthyWork. Nada foi alterado.",
+    "importNewer": "Esse arquivo veio de uma versão mais nova do HealthyWork. Atualize o app e tente de novo.",
+    "importInvalid": "Esse arquivo está incompleto ou danificado. Nada foi alterado.",
+    "importUnreadable": "Não deu pra ler esse arquivo. Nada foi alterado.",
+    "erase": "Apagar tudo",
+    "eraseTitle": "Apagar tudo?",
+    "eraseBody": "Todos os seus registros e ajustes serão apagados deste dispositivo. Não dá pra desfazer. Se quiser guardar uma cópia, exporte antes.",
+    "eraseConfirm": "Apagar tudo",
+    "erased": "Tudo apagado",
+    "privacy": "Tudo fica salvo só neste dispositivo. Nada é enviado pra nenhum servidor."
+  }
+}

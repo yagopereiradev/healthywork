@@ -1,0 +1,66 @@
+{
+  "types": {
+    "walk": "caminhar",
+    "neck-shoulders": "alongar pescoço e ombros",
+    "eyes": "descansar os olhos",
+    "wrists": "soltar os punhos",
+    "back": "alongar as costas"
+  },
+  "exercises": {
+    "walk": {
+      "title": "Levantar e caminhar",
+      "lead": "Alguns minutos já contam. Vale ir até a janela ou pegar mais água.",
+      "step1": "Levante e saia da cadeira",
+      "step2": "Caminhe no seu ritmo, sem pressa",
+      "step3": "Aproveite pra encher o copo de água"
+    },
+    "neck-shoulders": {
+      "title": "Alongar pescoço e ombros",
+      "lead": "Um minuto já ajuda. Pode fazer sentado mesmo.",
+      "step1": "Incline a cabeça pra cada lado, 10 segundos",
+      "step2": "Gire os ombros pra trás 10 vezes, devagar",
+      "step3": "Entrelace as mãos e estique os braços pra cima"
+    },
+    "eyes": {
+      "title": "Descansar os olhos",
+      "lead": "É a regra 20-20-20: 20 segundos olhando pra longe.",
+      "step1": "Tire os olhos da tela",
+      "step2": "Olhe pra algo a uns 6 metros de distância",
+      "step3": "Pisque devagar algumas vezes"
+    },
+    "wrists": {
+      "title": "Soltar os punhos",
+      "lead": "Um minuto, sem sair do lugar.",
+      "step1": "Estique um braço e puxe os dedos pra trás com a outra mão",
+      "step2": "Troque de lado",
+      "step3": "Gire os punhos devagar, 5 vezes pra cada lado"
+    },
+    "back": {
+      "title": "Alongar as costas",
+      "lead": "Um minuto de pé já ajuda.",
+      "step1": "Fique de pé e entrelace as mãos acima da cabeça",
+      "step2": "Estique o corpo pra cima e respire fundo",
+      "step3": "Incline o tronco devagar pra cada lado"
+    }
+  },
+  "screen": {
+    "eyebrow": "Hora da pausa",
+    "sinceLast": "{{minutes}} min desde a última pausa",
+    "remaining": "Restam {{time}}",
+    "steps": "Passo a passo",
+    "done": "Feito",
+    "snooze": "Adiar 10 min",
+    "skip": "Pular"
+  },
+  "next": {
+    "eyebrowIn": "A seguir · pausa em {{minutes}} min",
+    "eyebrowSoon": "A seguir · pausa em instantes",
+    "doNow": "Fazer agora",
+    "snooze": "Adiar 10 min"
+  },
+  "toast": {
+    "logged": "Pausa registrada",
+    "done": "Pausa feita",
+    "snoozed": "Pausa adiada por 10 minutos"
+  }
+}

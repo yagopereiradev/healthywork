@@ -1,0 +1,31 @@
+name: Idea or improvement
+description: Suggest something HealthyWork could do, or do better
+labels: [enhancement]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        HealthyWork is small on purpose: no account, no server, nothing leaves the device.
+        Ideas that keep it that way are the easiest to say yes to.
+  - type: textarea
+    id: problem
+    attributes:
+      label: What would this help you with?
+      description: Describe the situation in your day, not the solution yet.
+      placeholder: I work a split shift, and the reminders keep coming during my long lunch.
+    validations:
+      required: true
+  - type: textarea
+    id: idea
+    attributes:
+      label: What do you have in mind?
+    validations:
+      required: true
+  - type: checkboxes
+    id: health
+    attributes:
+      label: Does it involve a health claim?
+      description: A new claim, default goal or "Why?" text needs a source we can read and cite.
+      options:
+        - label: Yes, and I have added a link to a source above
+        - label: No health claim involved

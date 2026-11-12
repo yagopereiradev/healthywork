@@ -1,0 +1,207 @@
+@import 'tailwindcss';
+@import './fonts.css';
+@import './tokens.css';
+
+/*
+ * Tailwind reads its palette from the tokens. The default palette is removed on
+ * purpose: a colour that is not a token cannot be used by accident.
+ */
+@theme inline {
+  --color-*: initial;
+
+  --color-bg: var(--hw-bg);
+  --color-surface: var(--hw-surface);
+  --color-raised: var(--hw-raised);
+  --color-ink: var(--hw-ink);
+  --color-ink-2: var(--hw-ink-2);
+  --color-line: var(--hw-line);
+  --color-divider: var(--hw-divider);
+  --color-control: var(--hw-control);
+  --color-brand: var(--hw-brand);
+  --color-solid-on: var(--hw-solid-on);
+  --color-ring: var(--hw-ring);
+  --color-scrim: var(--hw-scrim);
+
+  --color-inverse: var(--hw-inverse);
+  --color-inverse-on: var(--hw-inverse-on);
+  --color-inverse-raised: var(--hw-inverse-raised);
+  --color-inverse-accent: var(--hw-inverse-accent);
+
+  --color-water: var(--hw-water);
+  --color-water-on: var(--hw-water-on);
+  --color-water-soft: var(--hw-water-soft);
+  --color-water-ink: var(--hw-water-ink);
+  --color-water-weak: var(--hw-water-weak);
+  --color-water-line: var(--hw-water-line);
+  --color-water-solid: var(--hw-water-solid);
+  --color-water-muted: var(--hw-water-muted);
+  --color-water-deep: var(--hw-water-deep);
+
+  --color-move: var(--hw-move);
+  --color-move-on: var(--hw-move-on);
+  --color-move-soft: var(--hw-move-soft);
+  --color-move-ink: var(--hw-move-ink);
+  --color-move-ink-2: var(--hw-move-ink-2);
+  --color-move-weak: var(--hw-move-weak);
+  --color-move-line: var(--hw-move-line);
+  --color-move-solid: var(--hw-move-solid);
+  --color-move-muted: var(--hw-move-muted);
+  --color-move-deep: var(--hw-move-deep);
+
+  --color-focus: var(--hw-focus);
+  --color-focus-on: var(--hw-focus-on);
+  --color-focus-soft: var(--hw-focus-soft);
+  --color-focus-ink: var(--hw-focus-ink);
+  --color-focus-ink-2: var(--hw-focus-ink-2);
+  --color-focus-weak: var(--hw-focus-weak);
+  --color-focus-line: var(--hw-focus-line);
+  --color-focus-solid: var(--hw-focus-solid);
+  --color-focus-muted: var(--hw-focus-muted);
+  --color-focus-deep: var(--hw-focus-deep);
+
+  --font-display: 'Sora Variable', 'Sora', ui-sans-serif, system-ui, sans-serif;
+  --font-sans: 'Inter Variable', 'Inter', ui-sans-serif, system-ui, sans-serif;
+
+  /* Shape: 12-16px on controls, 18-28px on cards. */
+  --radius-control: 0.75rem;
+  --radius-control-lg: 0.875rem;
+  --radius-control-xl: 1rem;
+  --radius-card-sm: 1.125rem;
+  --radius-card: 1.375rem;
+  --radius-card-lg: 1.5rem;
+  --radius-sheet: 1.75rem;
+
+  --shadow-float: var(--hw-shadow);
+}
+
+@layer base {
+  html {
+    background-color: var(--hw-bg);
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: transparent;
+  }
+
+  body {
+    margin: 0;
+    min-height: 100dvh;
+    background-color: var(--hw-bg);
+    color: var(--hw-ink);
+    font-family: var(--font-sans);
+    font-size: 1rem;
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
+  }
+
+  h1,
+  h2,
+  h3 {
+    font-family: var(--font-display);
+    font-weight: 700;
+    line-height: 1.2;
+    letter-spacing: -0.01em;
+  }
+
+  button,
+  a,
+  [role='button'],
+  [role='radio'],
+  [role='switch'] {
+    touch-action: manipulation;
+  }
+
+  button:not(:disabled),
+  [role='button']:not([aria-disabled='true']) {
+    cursor: pointer;
+  }
+
+  :focus-visible {
+    outline: 2px solid var(--hw-ring);
+    outline-offset: 2px;
+  }
+
+  /* Solid module cards are dark in both themes, so the ring turns light there. */
+  .on-solid {
+    --hw-ring: #ffffff;
+  }
+
+  ::selection {
+    background-color: var(--hw-water-soft);
+    color: var(--hw-ink);
+  }
+}
+
+/*
+ * The water in the glass never stops: the wave slides exactly one wavelength
+ * (96 units of the glass drawing) and repeats, so the loop has no seam. It is a
+ * CSS animation so the browser pauses it by itself in a hidden tab.
+ */
+@keyframes hw-wave {
+  to {
+    transform: translateX(-96px);
+  }
+}
+
+.hw-wave {
+  animation: hw-wave 3.2s linear infinite;
+}
+
+/*
+ * Moving between screens: the new screen fades in, and its cards rise into
+ * place one after the other.
+ *
+ * .hw-screen only changes opacity, on purpose: a transform on the screen
+ * wrapper would re-anchor the fixed action bar inside it while it animates.
+ * .hw-stagger goes on a container whose direct children are the cards.
+ */
+@keyframes hw-fade {
+  from {
+    opacity: 0;
+  }
+}
+
+@keyframes hw-rise {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+}
+
+.hw-screen {
+  animation: hw-fade 240ms ease-out both;
+}
+
+.hw-stagger > * {
+  animation: hw-rise 420ms cubic-bezier(0.22, 1, 0.36, 1) both;
+}
+.hw-stagger > :nth-child(2) {
+  animation-delay: 60ms;
+}
+.hw-stagger > :nth-child(3) {
+  animation-delay: 120ms;
+}
+.hw-stagger > :nth-child(4) {
+  animation-delay: 180ms;
+}
+.hw-stagger > :nth-child(5) {
+  animation-delay: 240ms;
+}
+.hw-stagger > :nth-child(n + 6) {
+  animation-delay: 300ms;
+}
+
+/*
+ * prefers-reduced-motion is honoured globally. Components that animate with
+ * Motion also read it through <MotionConfig reducedMotion="user">.
+ */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
